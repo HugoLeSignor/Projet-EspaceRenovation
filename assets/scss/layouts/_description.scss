@@ -1,0 +1,24 @@
+@use '../abstracts/variables' as var;
+
+/* DESCRIPTION */
+
+.description__content {
+  text-align: center;
+  h2 {
+    margin: 1.3em 2em 0;
+    font-family: var.$font-bold;
+    font-size: 3rem;
+    color: var.$color-main;
+  }
+  .description__skills {
+    margin: 0.4em 0 0;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: var.$color-main;
+  }
+  .description__item {
+    color: var.$color-main;
+    font-size: 1.5rem;
+    line-height: 3em;
+  }
+}
