@@ -15,6 +15,22 @@
   padding: 0 20px;
 }
 
+.card {
+  width: 33%;
+  text-align: center;
+  padding: 5em;
+  line-height: 40px;
+}
+
+.btn {
+  background-color: #112e3e;
+  color: #f9f9f9;
+  font-family: "Lato-Bold", sans-serif;
+  font-size: 1.3rem;
+  padding: 1.5em 3em;
+  border-radius: 8px;
+}
+
 /* BASE */
 * {
   box-sizing: border-box;
@@ -85,25 +101,36 @@ header .header__content img {
 }
 
 /* DESCRIPTION */
-.description__content {
+#description .description__content .description__content-main {
   text-align: center;
 }
-.description__content h2 {
+#description .description__content .description__content-main h2 {
   margin: 1.3em 2em 0;
   font-family: "Lato-Bold", sans-serif;
   font-size: 3rem;
   color: #112e3e;
 }
-.description__content .description__skills {
+#description .description__content .description__content-main .description__skills {
   margin: 0.4em 0 0;
   font-size: 2.3rem;
   text-transform: uppercase;
   color: #112e3e;
 }
-.description__content .description__item {
+#description .description__content .description__content-main .description__item {
   color: #112e3e;
   font-size: 1.5rem;
   line-height: 3em;
+}
+#description .description__content .description__cards {
+  display: flex;
+  flex-direction: row;
+}
+#description .description__content .description__cards .description__cards-item {
+  color: #112e3e;
+  font-size: 1.3rem;
+}
+#description .description__content .description__btn {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
