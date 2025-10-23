@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as var;
+
+/*BTN*/
+.btn {
+  display: inline-block;
+  background-color: var.$color-main;
+  color: var.$color-white;
+  font-family: var.$font-bold;
+  font-size: 1.3rem;
+  padding: 1.5em 3em;
+  border-radius: 8px;
+}
