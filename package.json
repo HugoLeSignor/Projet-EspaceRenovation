@@ -1,0 +1,24 @@
+{
+  "name": "projet-espacerenov",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HugoLeSignor/Projet-EspaceRenovation#readme",
+  "bugs": {
+    "url": "https://github.com/HugoLeSignor/Projet-EspaceRenovation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoLeSignor/Projet-EspaceRenovation.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w assets/scss:assets/css"
+  },
+  "dependencies": {
+    "sass": "^1.93.2"
+  }
+}
