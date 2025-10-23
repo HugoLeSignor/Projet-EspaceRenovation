@@ -1,3 +1,37 @@
 @use '../abstracts/variables' as var;
 
 /* FOOTER */
+footer {
+  background-color: var.$color-main;
+  padding: 2em 6em;
+  color: var.$color-white;
+  .footer__container {
+    p {
+      text-align: center;
+    }
+    .footer__content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4em;
+      p {
+        width: 40%;
+        font-size: 2rem;
+      }
+      .footer__contact {
+        border-left: solid 2px var.$color-white;
+        padding-left: 3em;
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          line-height: 30px;
+        }
+        img {
+            height: 50px;
+            color: white;
+        }
+      }
+    }
+  }
+}
