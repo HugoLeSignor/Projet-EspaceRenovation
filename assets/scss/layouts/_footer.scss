@@ -17,15 +17,21 @@ footer {
       p {
         width: 40%;
         font-size: 2rem;
+        text-align: justify;
       }
       .footer__contact {
         border-left: solid 2px var.$color-white;
         padding-left: 3em;
+        h4 {
+          font-size: 2rem;
+        }
         ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
           line-height: 30px;
+          font-size: 1.7rem;
+
         }
         img {
             height: 50px;

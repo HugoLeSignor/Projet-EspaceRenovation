@@ -92,16 +92,21 @@ footer .footer__container .footer__content {
 footer .footer__container .footer__content p {
   width: 40%;
   font-size: 2rem;
+  text-align: justify;
 }
 footer .footer__container .footer__content .footer__contact {
   border-left: solid 2px #f9f9f9;
   padding-left: 3em;
+}
+footer .footer__container .footer__content .footer__contact h4 {
+  font-size: 2rem;
 }
 footer .footer__container .footer__content .footer__contact ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 30px;
+  font-size: 1.7rem;
 }
 footer .footer__container .footer__content .footer__contact img {
   height: 50px;
