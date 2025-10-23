@@ -12,7 +12,7 @@ nav {
       a {
         color: var.$color-white;
       }
-      &:after {
+      &:not(:last-child):after {
         content: '';
         border-left: 2px solid var.$color-white;
         margin-left: 2em;

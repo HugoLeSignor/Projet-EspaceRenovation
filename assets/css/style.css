@@ -68,7 +68,7 @@ nav ul li {
 nav ul li a {
   color: #f9f9f9;
 }
-nav ul li:after {
+nav ul li:not(:last-child):after {
   content: "";
   border-left: 2px solid #f9f9f9;
   margin-left: 2em;
