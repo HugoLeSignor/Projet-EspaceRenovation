@@ -1,0 +1,22 @@
+@use '../abstracts/variables' as var;
+
+/* NAV */
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    list-style-type: none;
+    li {
+      font-size: 1.3rem;
+      a {
+        color: var.$color-white;
+      }
+      &:after {
+        content: '';
+        border-left: 2px solid var.$color-white;
+        margin-left: 2em;
+      }
+    }
+  }
+}

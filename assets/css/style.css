@@ -1,6 +1,87 @@
+/* FONTS */
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+/* UTILITIES */
+.container {
+  width: 100%;
+  max-width: 1980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* BASE */
-/* ABSTRACTS */
-/* COMPONENTS */
-/* LAYOUTS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato-Regular", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAV */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  list-style-type: none;
+}
+nav ul li {
+  font-size: 1.3rem;
+}
+nav ul li a {
+  color: #f9f9f9;
+}
+nav ul li:after {
+  content: "";
+  border-left: 2px solid #f9f9f9;
+  margin-left: 2em;
+}
+
+/* HEADER */
+header {
+  background-color: #112e3e;
+  padding: 2em 6em;
+}
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__content img {
+  height: 200px;
+}
+
+/* HERO */
+#hero {
+  background-image: url(../img/PHOTO-BUEAU.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+#hero h1 {
+  font-family: "Lato-Bold", sans-serif;
+  display: flex;
+  margin: 0;
+  color: #f9f9f9;
+  width: 20%;
+  font-size: 4rem;
+  flex-wrap: wrap;
+}
+#hero h1 span {
+  color: #edd154;
+}
 
 /*# sourceMappingURL=style.css.map */

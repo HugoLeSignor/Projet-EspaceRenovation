@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as var;
+
+/* HEADER */
+header {
+  background-color: var.$color-main;
+  padding: 2em 6em;
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      height: 200px;
+    }
+  }
+}

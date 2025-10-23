@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as var;
+
+/* HERO */
+#hero {
+  background-image: url(../img/PHOTO-BUEAU.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  h1 {
+    font-family: var.$font-bold;
+    display: flex;
+    margin: 0;
+    color: var.$color-white;
+    width: 20%;
+    font-size: 4rem;
+    flex-wrap: wrap;
+    span {
+      color: var.$color-accent;
+    }
+  }
+}

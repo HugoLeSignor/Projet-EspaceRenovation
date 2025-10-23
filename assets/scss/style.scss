@@ -1,17 +1,18 @@
-/* BASE */
+
 @use 'base/fonts';
 @use 'base/utils';
+@use 'base/base';
 
-/* ABSTRACTS */
+
 @use 'abstracts/mixins';
 @use 'abstracts/variables';
 
-/* COMPONENTS */
+
 @use 'components/btn';
 @use 'components/card';
 @use 'components/nav';
 
-/* LAYOUTS */
+
 @use 'layouts/footer';
 @use 'layouts/header';
 @use 'layouts/hero';
