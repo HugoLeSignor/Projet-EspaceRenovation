@@ -213,6 +213,9 @@ header .header__content img {
 #gallery .gallery__content .gallery__content-cards .gallery__content-card p {
   margin-top: 0;
 }
+#gallery .gallery__content .gallery__content-cards .gallery__content-card h3 {
+  text-align: center;
+}
 
 /* CTA */
 #cta {
@@ -222,7 +225,7 @@ header .header__content img {
   text-align: center;
 }
 #cta .cta__content .cta__content-title p {
-  margin: 1em 0 0;
+  margin: 1em 0 1em;
   font-size: 1.8rem;
   text-transform: uppercase;
 }
@@ -231,11 +234,14 @@ header .header__content img {
   justify-content: center;
 }
 #cta .cta__content .cta__content-cards .cta__content-card {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   padding: 1em;
 }
 #cta .cta__content .cta__content-cards .cta__content-card a {
   color: #112e3e;
+}
+#cta .cta__content .cta__content-cards .cta__content-card h3 {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
