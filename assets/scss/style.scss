@@ -1,7 +1,6 @@
 @use 'base/fonts';
 @use 'base/utils';
 @use 'base/base';
-@use 'base/responsive';
 
 @use 'abstracts/mixins';
 @use 'abstracts/variables';
@@ -16,3 +15,5 @@
 @use 'layouts/description';
 @use 'layouts/gallery';
 @use 'layouts/cta';
+
+@use 'base/responsive';
