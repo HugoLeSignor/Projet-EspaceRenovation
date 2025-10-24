@@ -46,6 +46,11 @@ h2 {
   padding: 1em 2em;
   border-radius: 8px;
 }
+@media (max-width: 576px) {
+  .btn {
+    display: block;
+  }
+}
 
 .card {
   width: 33%;
@@ -124,6 +129,7 @@ footer {
   background-color: #112e3e;
   padding: 2em 6em;
   color: #f9f9f9;
+  width: 100%;
 }
 footer .footer__container p {
   text-align: center;
@@ -134,17 +140,58 @@ footer .footer__container .footer__content {
   align-items: center;
   gap: 4em;
 }
+@media (max-width: 576px) {
+  footer .footer__container .footer__content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 footer .footer__container .footer__content p {
   width: 40%;
   font-size: 1.5rem;
   text-align: justify;
 }
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content p {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  footer .footer__container .footer__content p {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content img {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
 footer .footer__container .footer__content .footer__contact {
   border-left: solid 2px #f9f9f9;
   padding-left: 3em;
 }
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content .footer__contact {
+    padding-left: 1em;
+  }
+}
+@media (max-width: 576px) {
+  footer .footer__container .footer__content .footer__contact {
+    border-left: none;
+    padding: 0;
+  }
+}
 footer .footer__container .footer__content .footer__contact h4 {
   font-size: 1.4rem;
+}
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content .footer__contact h4 {
+    font-size: 1rem;
+  }
 }
 footer .footer__container .footer__content .footer__contact ul {
   list-style-type: none;
@@ -152,9 +199,22 @@ footer .footer__container .footer__content .footer__contact ul {
   padding: 0;
   line-height: 30px;
 }
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content .footer__contact ul {
+    font-size: 1rem;
+    line-height: 20px;
+    width: 100%;
+  }
+}
 footer .footer__container .footer__content .footer__contact img {
   height: 50px;
   color: white;
+}
+@media (max-width: 1000px) {
+  footer .footer__container .footer__content .footer__contact img {
+    font-size: 1rem;
+    width: 50px;
+  }
 }
 
 /* HEADER */
@@ -244,11 +304,6 @@ header .header__content .header__logo {
 #description .description__content .description__btn {
   text-align: center;
 }
-@media (max-width: 576px) {
-  #description .description__content .description__btn a {
-    display: block;
-  }
-}
 
 /* GALLERY */
 #gallery {
@@ -276,6 +331,16 @@ header .header__content .header__logo {
   width: 100%;
   gap: 2em;
 }
+@media (max-width: 1000px) {
+  #gallery .gallery__content .gallery__content-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  #gallery .gallery__content .gallery__content-cards {
+    grid-template-columns: 1fr;
+  }
+}
 #gallery .gallery__content .gallery__content-cards .gallery__content-card {
   display: flex;
   justify-content: center;
@@ -287,10 +352,19 @@ header .header__content .header__logo {
   width: 100%;
   height: 300px;
 }
+@media (max-width: 576px) {
+  #gallery .gallery__content .gallery__content-cards .gallery__content-card img {
+    height: 600px;
+  }
+}
 #gallery .gallery__content .gallery__content-cards .gallery__content-card p {
   margin-top: 0;
 }
 #gallery .gallery__content .gallery__content-cards .gallery__content-card h3 {
+  text-align: center;
+}
+#gallery .gallery__content .gallery__btn {
+  width: 100%;
   text-align: center;
 }
 
@@ -309,6 +383,12 @@ header .header__content .header__logo {
 #cta .cta__content .cta__content-cards {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 576px) {
+  #cta .cta__content .cta__content-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 #cta .cta__content .cta__content-cards .cta__content-card {
   font-size: 1.1rem;

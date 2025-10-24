@@ -32,11 +32,6 @@
     }
     .description__btn {
       text-align: center;
-      a {
-        @include mix.mobile {
-          display: block;
-        }
-      }
     }
   }
 }
