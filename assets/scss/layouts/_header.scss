@@ -1,14 +1,19 @@
 @use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
 
 /* HEADER */
 header {
   background-color: var.$color-main;
   padding: 2em 6em;
+
+  @include mix.tablet {
+    padding: 2em 3em;
+  }
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
+    .header__logo {
       height: 100px;
     }
   }
