@@ -1,18 +1,18 @@
 @use 'base/fonts';
-@use 'base/utils';
 @use 'base/base';
+@use 'base/utils';
 
 @use 'abstracts/variables';
 
-@use 'components/btn';
-@use 'components/card';
 @use 'components/nav';
+@use 'components/card';
+@use 'components/btn';
 
-@use 'layouts/footer';
 @use 'layouts/header';
 @use 'layouts/hero';
 @use 'layouts/description';
 @use 'layouts/gallery';
 @use 'layouts/cta';
+@use 'layouts/footer';
 
 @use 'base/responsive';
