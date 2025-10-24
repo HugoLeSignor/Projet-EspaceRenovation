@@ -8,11 +8,11 @@
       text-align: center;
       .description__skills {
         margin: 0.4em 0 0;
-        font-size: 2.3rem;
+        font-size: 1.8rem;
         text-transform: uppercase;
       }
       .description__item {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         line-height: 3em;
       }
     }
@@ -21,7 +21,8 @@
       display: flex;
       flex-direction: row;
       .description__cards-item {
-        font-size: 1.3rem;
+        padding: 1.3em;
+        width: 100%;
       }
     }
     .description__btn {

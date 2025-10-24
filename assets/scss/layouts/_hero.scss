@@ -5,7 +5,7 @@
   background-image: url(../img/PHOTO-BUEAU.jpg);
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 600px;
   display: flex;
   align-items: center;
   h1 {
@@ -13,8 +13,8 @@
     display: flex;
     margin: 0;
     color: var.$color-white;
-    width: 20%;
-    font-size: 4rem;
+    width: 30%;
+    font-size: 3rem;
     flex-wrap: wrap;
     span {
       color: var.$color-accent;

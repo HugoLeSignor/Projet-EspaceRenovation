@@ -33,7 +33,7 @@ a {
 h2 {
   margin: 1.3em 2em 0;
   font-family: "Lato-Bold", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #112e3e;
 }
 
@@ -43,8 +43,7 @@ h2 {
   background-color: #112e3e;
   color: #f9f9f9;
   font-family: "Lato-Bold", sans-serif;
-  font-size: 1.3rem;
-  padding: 1.5em 3em;
+  padding: 1em 2em;
   border-radius: 8px;
 }
 
@@ -91,7 +90,7 @@ footer .footer__container .footer__content {
 }
 footer .footer__container .footer__content p {
   width: 40%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: justify;
 }
 footer .footer__container .footer__content .footer__contact {
@@ -99,14 +98,14 @@ footer .footer__container .footer__content .footer__contact {
   padding-left: 3em;
 }
 footer .footer__container .footer__content .footer__contact h4 {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 footer .footer__container .footer__content .footer__contact ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 30px;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 footer .footer__container .footer__content .footer__contact img {
   height: 50px;
@@ -124,7 +123,7 @@ header .header__content {
   align-items: center;
 }
 header .header__content img {
-  height: 200px;
+  height: 100px;
 }
 
 /* HERO */
@@ -132,7 +131,7 @@ header .header__content img {
   background-image: url(../img/PHOTO-BUEAU.jpg);
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 600px;
   display: flex;
   align-items: center;
 }
@@ -141,8 +140,8 @@ header .header__content img {
   display: flex;
   margin: 0;
   color: #f9f9f9;
-  width: 20%;
-  font-size: 4rem;
+  width: 30%;
+  font-size: 3rem;
   flex-wrap: wrap;
 }
 #hero h1 span {
@@ -155,11 +154,11 @@ header .header__content img {
 }
 #description .description__content .description__content-main .description__skills {
   margin: 0.4em 0 0;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 #description .description__content .description__content-main .description__item {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 3em;
 }
 #description .description__content .description__cards {
@@ -167,7 +166,8 @@ header .header__content img {
   flex-direction: row;
 }
 #description .description__content .description__cards .description__cards-item {
-  font-size: 1.3rem;
+  padding: 1.3em;
+  width: 100%;
 }
 #description .description__content .description__btn {
   text-align: center;
@@ -189,7 +189,7 @@ header .header__content img {
 }
 #gallery .gallery__content .gallery__content-title .gallery__content-subtitle {
   margin: 0.4em 0 0;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 #gallery .gallery__content .gallery__content-cards {
@@ -208,7 +208,7 @@ header .header__content img {
 }
 #gallery .gallery__content .gallery__content-cards .gallery__content-card img {
   width: 100%;
-  height: 500px;
+  height: 300px;
 }
 #gallery .gallery__content .gallery__content-cards .gallery__content-card p {
   margin-top: 0;
@@ -222,8 +222,8 @@ header .header__content img {
   text-align: center;
 }
 #cta .cta__content .cta__content-title p {
-  margin: 0.4em 0 0;
-  font-size: 2.3rem;
+  margin: 1em 0 0;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 #cta .cta__content .cta__content-cards {
@@ -232,6 +232,7 @@ header .header__content img {
 }
 #cta .cta__content .cta__content-cards .cta__content-card {
   font-size: 1.4rem;
+  padding: 1em;
 }
 #cta .cta__content .cta__content-cards .cta__content-card a {
   color: #112e3e;
