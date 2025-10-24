@@ -1,8 +1,7 @@
-@use '../abstracts/mixins' as mix;
 @use '../abstracts/variables' as var;
 
 /* TABLET */
-@include mix.tablet {
+@media (max-width: 1000px) {
   /* Navigation */
   nav {
     display: none;
@@ -86,7 +85,7 @@
 }
 
 /* MOBILE*/
-@include mix.mobile {
+@media (max-width: 576px) {
   /* nav */
   nav {
     display: none;
