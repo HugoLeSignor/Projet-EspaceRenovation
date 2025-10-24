@@ -185,6 +185,13 @@ header .header__content .header__logo {
   display: flex;
   align-items: center;
 }
+@media (max-width: 576px) {
+  #hero .hero__container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #hero h1 {
   font-family: "Lato-Bold", sans-serif;
   display: flex;
@@ -193,6 +200,16 @@ header .header__content .header__logo {
   width: 30%;
   font-size: 3rem;
   flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  #hero h1 {
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  #hero h1 {
+    width: 100%;
+  }
 }
 #hero h1 span {
   color: #edd154;
