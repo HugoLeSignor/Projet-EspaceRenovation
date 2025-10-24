@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
 
 /* DESCRIPTION */
 
@@ -20,6 +21,10 @@
     .description__cards {
       display: flex;
       flex-direction: row;
+
+      @include mix.mobile {
+        flex-direction: column;
+      }
       .description__cards-item {
         padding: 1.3em;
         width: 100%;
@@ -27,6 +32,11 @@
     }
     .description__btn {
       text-align: center;
+      a {
+        @include mix.mobile {
+          display: block;
+        }
+      }
     }
   }
 }

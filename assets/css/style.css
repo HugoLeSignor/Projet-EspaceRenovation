@@ -232,12 +232,22 @@ header .header__content .header__logo {
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 576px) {
+  #description .description__content .description__cards {
+    flex-direction: column;
+  }
+}
 #description .description__content .description__cards .description__cards-item {
   padding: 1.3em;
   width: 100%;
 }
 #description .description__content .description__btn {
   text-align: center;
+}
+@media (max-width: 576px) {
+  #description .description__content .description__btn a {
+    display: block;
+  }
 }
 
 /* GALLERY */
