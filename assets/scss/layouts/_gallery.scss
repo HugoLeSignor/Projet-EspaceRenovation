@@ -25,7 +25,7 @@
       width: 100%;
       gap: 2em;
       @include mix.tablet {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
       }
       @include mix.mobile {
         grid-template-columns: 1fr;
@@ -41,7 +41,6 @@
           height: 300px;
           @include mix.mobile {
             height: 600px;
-            
           }
         }
         p {
