@@ -1,6 +1,3 @@
-@use '../abstracts/variables' as var;
-@use '../abstracts/mixins' as mix;
-
 /* DESCRIPTION */
 
 #description {
@@ -22,9 +19,6 @@
       display: flex;
       flex-direction: row;
 
-      @include mix.mobile {
-        flex-direction: column;
-      }
       .description__cards-item {
         padding: 1.3em;
         width: 100%;

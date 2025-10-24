@@ -1,5 +1,4 @@
 @use '../abstracts/variables' as var;
-@use '../abstracts/mixins' as mix;
 
 /* FOOTER */
 footer {
@@ -16,64 +15,29 @@ footer {
       justify-content: center;
       align-items: center;
       gap: 4em;
-      @include mix.mobile {
-        flex-direction: column;
-        text-align: center;
-      }
+
       p {
         width: 40%;
         font-size: 1.5rem;
         text-align: justify;
-        @include mix.tablet {
-          font-size: 1rem;
-          width: 100%;
-        }
-        @include mix.mobile {
-          width: 100%;
-          font-size: 1.3rem;
-          text-align: center;
-        }
       }
-      img {
-        @include mix.tablet {
-          font-size: 1rem;
-          width: 100%;
-        }
-      }
+
       .footer__contact {
         border-left: solid 2px var.$color-white;
         padding-left: 3em;
-        @include mix.tablet {
-          padding-left: 1em;
-        }
-        @include mix.mobile {
-          border-left: none;
-          padding: 0;
-        }
+
         h4 {
           font-size: 1.4rem;
-          @include mix.tablet {
-            font-size: 1rem;
-          }
         }
         ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
           line-height: 30px;
-          @include mix.tablet {
-            font-size: 1rem;
-            line-height: 20px;
-            width: 100%;
-          }
         }
         img {
           height: 50px;
           color: white;
-          @include mix.tablet {
-            font-size: 1rem;
-            width: 50px;
-          }
         }
       }
     }

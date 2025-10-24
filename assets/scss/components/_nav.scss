@@ -1,5 +1,4 @@
 @use '../abstracts/variables' as var;
-@use '../abstracts/mixins' as mix;
 
 /* NAV */
 nav {
@@ -9,20 +8,8 @@ nav {
     gap: 5em;
     list-style-type: none;
 
-    @include mix.tablet {
-      gap: 2em;
-    }
-
     li {
       font-size: 1.3rem;
-
-      @include mix.tablet {
-        font-size: 1.1rem;
-      }
-
-      @include mix.mobile {
-        font-size: 1rem;
-      }
 
       a {
         color: var.$color-white;
@@ -32,19 +19,7 @@ nav {
         content: '';
         border-left: 2px solid var.$color-white;
         margin-left: 2em;
-
-        @include mix.tablet {
-          margin-left: 1em;
-        }
       }
     }
-  }
-
-  @include mix.tablet {
-    display: none;
-  }
-
-  @include mix.mobile {
-    display: none;
   }
 }
